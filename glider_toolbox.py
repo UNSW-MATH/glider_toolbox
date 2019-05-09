@@ -78,14 +78,9 @@ def glider_concat(data_dir,glider_chunks,file_name):
     
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$    
     
-def scatter_time_depth_TEMP(data_files,var):
+#def scatter_time_depth_TEMP(data_files,var):
     # data_files = data set output from glider_concat
     
-
-    var_array = data_files.get([var])
-    var_array = var_array.to_array
-    depth = data_files.get(['DEPTH'])
-    depth = depth.to_array
-    plt.scatter(var_array,depth)
+    # This function is in progress
 
 
