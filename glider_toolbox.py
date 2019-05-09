@@ -64,8 +64,8 @@ def glider_concat(data_dir,glider_chunks,file_name):
     # file_name = specify string for name of file (not including extension e.g. '.nc')
     
     # concatenate IMOS glider netCDF files in data_dir
-    data_files = xr.open_mfdataset(data_dir + 'IMOS*2009*.nc', concat_dim='TIME',
-                data_vars='minimal',parallel=True).chunk(glider_chunks) # 2009 only for now
+    data_files = xr.open_mfdataset(data_dir + 'IMOS*.nc', concat_dim='TIME',
+                data_vars='minimal',parallel=True).chunk(glider_chunks)
     print('Data concatenated..')
     # save concatenated IMOS glider data as netCDF in data_dir
     data_files.to_netcdf(path=data_dir + file_name + '.nc',mode='w',format='netCDF4')
