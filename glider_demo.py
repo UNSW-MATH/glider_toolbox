@@ -5,8 +5,8 @@ from glider_toolbox import find_chunks
 
 #-------------------------------------------- 
 # define local and data directory
-local_dir = "/srv/scratch/z3526971/"
-data_dir = local_dir + 'IMOS_gliders/'
+local_dir = "/your/directory"
+data_dir = local_dir + '/your/data/directory'
 
 #--------------------------------------------
 # define best chunks for .zarr file
