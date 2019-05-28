@@ -26,4 +26,3 @@ data_files = glider_concat(data_dir,glider_chunks,file_name)
 
 
 
-
