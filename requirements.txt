@@ -1,6 +1,2 @@
-xarray
-pandas
-matplotlib
-cmocean
-cartopy
-numpy
+xarray==0.9.6
+cartopy==0.17.0
