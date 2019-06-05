@@ -5,5 +5,5 @@ cartopy==0.17.0
 matplotlib==3.0.3
 netcdf4==1.4.2
 cmocean==2.0
-geos==3.7.1
+geos==3.3.3
 proj4==5.2.0
