@@ -1,0 +1,6 @@
+numpy==1.16.*
+xarray==0.9.6
+pandas==0.24.2
+matplotlib==3.0.3
+netcdf4==1.4.2
+cmocean==2.0
