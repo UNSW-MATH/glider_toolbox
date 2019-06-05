@@ -1,2 +1,7 @@
 numpy==1.16.*
 xarray==0.9.6
+pandas==0.19.2
+cartopy==0.17.0
+matplotlib==3.0.3
+netcdf4==1.4.2
+cmocean==2.0
