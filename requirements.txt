@@ -1,0 +1,6 @@
+xarray
+pandas
+matplotlib
+cmocean
+cartopy
+numpy
