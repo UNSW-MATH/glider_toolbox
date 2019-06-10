@@ -1,0 +1,9 @@
+import xarray as xr
+import pandas as pd
+import numpy as np
+import matplotlib as mat
+import cmocean
+import cartopy as cart
+print('------------------------------')
+print('Packages are working :-)')
+print('------------------------------')
